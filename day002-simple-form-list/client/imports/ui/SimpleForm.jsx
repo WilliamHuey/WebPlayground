@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-
 import Song from './Song.jsx';
 
 export default class SimpleForm extends Component {
   constructor(props) {
     super(props);
     this.onSongSubmit = this.onSongSubmit.bind(this);
-
     this.state = {
       song: null
     };
